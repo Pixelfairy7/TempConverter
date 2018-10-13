@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type = "text/css" href="main.css">
+    
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="tempBox">
+        <div class="header">
+            <h1> TempKit</h1>
+            <h2> Temperature Conversion</h2>
+            <p>Enter the desired temperature in the 
+                corresponding field to convert it</p>
+        </div>
+        <div class="formBox">
+            <form> <!--Input area-->
+                <div class="form-group">
+                    <!--Farenheit input-->
+                    <input id="farenheitIn" 
+                    type="number"
+                    placeholder="Farenheit">
+                    <!--Celsius input-->
+                    <input id="celsiusIn" 
+                    type="number"
+                    placeholder="Celsius">
+
+                    <!--Kelvin input-->
+
+                    <input id="kelvinIn" 
+                    type="number"
+                    placeholder="Kelvin">
+
+                    <input type="reset" value="Reset Fields" onClick="window.location.reload()">
+                
+            </form>
+        </div>
+        <div id="output"> <!--output area -->
+                <div class="tempCard">
+                    <h3 class="tempLabel">Farenheit</h3>
+                    <h3 id="farenOut" class"tempOut"></h3>
+                </div>
+
+                <div class="tempCard">
+                    <h3 class="tempLabel">Celsius</h3>
+                    <h3 id="celsiusOut" class"tempOut"></h3>
+                </div>
+
+                <div class="tempCard">
+                    <h3 class="tempLabel">Kelvin</h3>
+                    <h3 id="kelvinOut" class"tempOut"></h3>
+                 </div>
+
+        </div>
+       
+    </div>
+
+
+    <script src="tempCalc.js"></script>  
+</body>
+</html>
