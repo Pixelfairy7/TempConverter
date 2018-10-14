@@ -1,32 +1,7 @@
 
-.tempBox{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-   
-    width: 75%;
-    height: 100vh;
-    font-family: 'Poiret One', cursive;
-   
-    background: #ebedf55b;
-    color: #333333;
-
-    -webkit-box-shadow: 3px 3px 3px 1px #ccc; 
-    -moz-box-shadow:    3px 3px 3px 1px #ccc;
-    box-shadow:         3px 3px 3px 1px #ccc;
-
-}
 
 
-#output{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.tempCard {
-    flex-grow: 1;
-
+/* text styling */
+h3{
+    font-weight: 200;
 }
