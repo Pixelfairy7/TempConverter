@@ -9,7 +9,7 @@ function(e){
     //farenheit stays same 
     document.getElementById('farenOut').innerHTML = (far);
     //farenheit to Kelvin formula
-    document.getElementById('kelvinOut').innerHTML = ( (far -32) * 5/9 +273.15);
+    document.getElementById('kelvinOut').innerHTML = ( (far -32) * 5/9 +273.15).toFixed(2);
 
 
 
